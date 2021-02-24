@@ -1,6 +1,8 @@
 package domain;
 
 public class FromId {
+    private String authorName;
+
     public String getUserName() {
         return authorName;
     }
@@ -8,6 +10,4 @@ public class FromId {
     public void setUserName(String authorName) {
         this.authorName = authorName;
     }
-
-    private String authorName;
 }

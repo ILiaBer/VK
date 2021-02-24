@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Post {
     private String imageUrl;
-    private boolean friends_only;
+    private boolean friendsOnly;
     private String text;
     private int id;
     private CommentsInfo commentsInfo;
@@ -13,6 +13,16 @@ public class Post {
     private LikesInfo likesInfo;
     private Repost repost;
     private Geo geo;
+    private СopyRight сopyRight;
+
+    public СopyRight getСopyRight() {
+        return сopyRight;
+    }
+
+    public void setСopyRight(СopyRight сopyRight) {
+        this.сopyRight = сopyRight;
+    }
+
 
     public String getImageUrl() {
         return imageUrl;
@@ -22,12 +32,12 @@ public class Post {
         this.imageUrl = imageUrl;
     }
 
-    public boolean isFriends_only() {
-        return friends_only;
+    public boolean isFriendsOnly() {
+        return friendsOnly;
     }
 
-    public void setFriends_only(boolean friends_only) {
-        this.friends_only = friends_only;
+    public void setFriendsOnly(boolean friendsOnly) {
+        this.friendsOnly = friendsOnly;
     }
 
     public String getText() {
@@ -103,8 +113,6 @@ public class Post {
     }
 
     private ViewsUser viewsUser;
-
-
 
 
 }

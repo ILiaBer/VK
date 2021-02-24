@@ -1,6 +1,8 @@
 package domain;
 
 public class ViewsUser {
+    private int count;
+
     public int getCount() {
         return count;
     }
@@ -9,5 +11,5 @@ public class ViewsUser {
         this.count = count;
     }
 
-    private int count;
+
 }
