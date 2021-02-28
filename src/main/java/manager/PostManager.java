@@ -9,6 +9,7 @@ public class PostManager {
     public Post[] ownerId() {
         return null;
     }
+
     public Post[] query() {
         return null;
     }
@@ -25,35 +26,19 @@ public class PostManager {
         return null;
     }
 
-    public String searchForId() {
-        Post[] posts = postManager.ownerId();
-        return null;
-
-    }
-
-    public String searchForOwnersOnly() {
-        Post[] posts = postManager.ownersOnly();
-        return null;
-    }
-
-    public String searchForQuery() {
-        Post[] posts = postManager.query();
-        return null;
-    }
-
-    public String searchForOffset() {
+    public String search() {
+        Post[] ownerId = postManager.ownerId();
+        Post[] ownersOnly = postManager.ownersOnly();
+        Post[] query = postManager.query();
         Post[] posts = postManager.offset();
         return null;
+
     }
 
-    public String deleteOwnerId() {
-        Post[] posts = postManager.ownerId();
-        return null;
-    }
-
-
-    public String deleteForId() {
+    public String delete() {
+        Post[] ownerId = postManager.ownerId();
         Post[] posts = postManager.postId();
         return null;
     }
+
 }
