@@ -12,7 +12,7 @@ public class PostManager {
 
     }
 
-    public String delete(int ownerId, int postId) {
+    public Post[] delete(int ownerId, int postId) {
         return null;
 
     }
